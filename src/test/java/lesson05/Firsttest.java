@@ -35,10 +35,6 @@ public class Firsttest {
         wd.findElement(By.xpath("//*[@id=\"SubmitLogin\"]/span")).click();
     }
 
-//    @AfterClass
-//    public static void tearDown() {
-//        wd.quit();
-//    }
 
     @After
     public void after() {
